@@ -1,10 +1,13 @@
 [CmdletBinding()]param(
+    # The federation server name, something like "fs.contoso.com"
     [Parameter(Mandatory=$true)]
     $FederationServer,
 
+    # The name of the AD FS trusted provider in SharePoint, something like "Contoso AD FS"
     [Parameter(Mandatory=$true)]
     $TrustedProvider,
 
+    # If this parameter is used, then no changes will be done, but it can be used to make sure the detection works.
     [Switch]
     $DryRun
 )
