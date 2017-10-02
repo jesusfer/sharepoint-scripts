@@ -1,2 +1,2 @@
 # sharepoint-scripts
-A collection of SharePoint scripts, mostly in PowerShell
+A collection of SharePoint PowerShell scripts
